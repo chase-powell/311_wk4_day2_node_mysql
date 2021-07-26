@@ -6,9 +6,9 @@ class Connection {
       console.log('creating connection...')
       this.pool = mysql.createPool({
         connectionLimit: 100,
-        host: 'localhost',
+        host: '34.72.6.110',
         user: 'root',
-        password: 'password',
+        password: 'ChaseP11',
         database: 'admin'
       })
 
